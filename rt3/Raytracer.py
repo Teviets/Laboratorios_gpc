@@ -16,9 +16,9 @@ screen.set_alpha(None)
 raytracer = Raytracer(screen=screen)
 
 white = Material(diffuse=(1, 1, 1))
-tex2 = pg.image.load("tex2.jpg")
+tex2 = pg.image.load("tex1.jpg")
 tex2 = Material(texture=tex2)
-tex3 = pg.image.load("tex1.jpg")
+tex3 = pg.image.load("tex2.jpg")
 tex3 = Material(texture=tex3)
 back = Material(diffuse=(0.9, 0.9, 0.9), specular=32, ks=0.2, ior=3, matType=OPAQUE)
 
